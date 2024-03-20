@@ -2,7 +2,6 @@ function [result, Loss,nmi] = MMGC(data, labels, gamma, phi, k, normData, max_it
 % Metric Multi-view Subspace Clustering with Graph Filtering
 % Par.gamma     :Trade-off parameter in LASC for penalty term ||S^v||_F^2
 % Par.phi       :Trade-off parameter in Subspace Clustering for penalty term ||Z^v||_F^2
-% Par.beta      :Trade-off parameter for the term of spectral clustering Tr(F^T(D-E)F)
 % Par.k         : Order of the low-pass filter based on normalized Laplacian Fourier base 
 % labels        : groundtruth of the data, num_samp by 1
 % num_clus      : number of clusters
